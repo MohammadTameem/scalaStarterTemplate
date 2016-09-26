@@ -1,5 +1,24 @@
 package com.example
 
-object ScalaMain extends App {
-  println("This is the ScalaMain class")
+object ScalaMain {
+
+  def main(args: Array[String]): Unit = {
+
+    val a=None
+    println(a)
+
+  }
+
+  def authentication(username:String, password:String):Boolean={
+    if(username.nonEmpty && password.nonEmpty){
+
+    }
+    false
+  }
+
+  def check(username:String, password:String): Unit ={
+
+  }
 }
+
+
